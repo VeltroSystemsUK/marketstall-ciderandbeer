@@ -50,7 +50,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "6 × 500ml bottles",
     stock: 60,
     images: [
-      "https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=800&q=80",
+      "/images/dry-cider.jpg",
     ],
     dietary: ["vegan", "gluten-free"],
     allergens: [],
@@ -73,7 +73,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "6 × 500ml bottles",
     stock: 55,
     images: [
-      "https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=800&q=80",
+      "/images/perry.jpg",
     ],
     dietary: ["vegan", "gluten-free"],
     allergens: [],
@@ -96,7 +96,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "4 × 500ml bottles",
     stock: 25,
     images: [
-      "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80",
+      "/images/pale-ale.jpg",
     ],
     dietary: ["vegan", "gluten-free"],
     allergens: [],
@@ -119,7 +119,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "4 × 440ml cans",
     stock: 80,
     images: [
-      "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80",
+      "/images/tasting-case.jpg",
     ],
     dietary: ["vegan"],
     allergens: ["gluten"],
@@ -142,7 +142,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "12 mixed bottles & cans",
     stock: 30,
     images: [
-      "https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=800&q=80",
+      "/images/dry-cider.jpg",
     ],
     dietary: ["vegan"],
     allergens: ["gluten"],
@@ -164,7 +164,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "4 × 330ml bottles",
     stock: 20,
     images: [
-      "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80",
+      "/images/perry.jpg",
     ],
     dietary: ["vegan", "gluten-free"],
     allergens: [],
@@ -186,7 +186,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "4 × 440ml cans",
     stock: 50,
     images: [
-      "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80",
+      "/images/pale-ale.jpg",
     ],
     dietary: ["vegan"],
     allergens: ["gluten"],
@@ -208,7 +208,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "6 × 330ml bottles",
     stock: 45,
     images: [
-      "https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=800&q=80",
+      "/images/tasting-case.jpg",
     ],
     dietary: ["vegan", "gluten-free"],
     allergens: [],

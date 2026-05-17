@@ -19,9 +19,8 @@ export const MOCK_PRODUCERS: Producer[] = [
     },
     categories: ["cider", "beer"],
     images: {
-      banner:
-        "https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=1400&q=80",
-      logo: "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=200&q=80",
+      banner: "/images/hero.jpg",
+      logo: "/images/dry-cider.jpg",
     },
     status: "approved",
     commissionRate: 0,
@@ -269,8 +268,7 @@ export const MOCK_ORDERS: Order[] = [
         price: 1400,
         quantity: 2,
         unit: "6 × 500ml bottles",
-        imageUrl:
-          "https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=400&q=80",
+        imageUrl: "/images/hero.jpg",
       },
       {
         productId: "prod-3",
@@ -280,8 +278,7 @@ export const MOCK_ORDERS: Order[] = [
         price: 1400,
         quantity: 1,
         unit: "4 × 500ml bottles",
-        imageUrl:
-          "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=400&q=80",
+        imageUrl: "/images/hero.jpg",
       },
     ],
     producerIds: ["producer-1"],

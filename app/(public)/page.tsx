@@ -68,7 +68,7 @@ export default function HomePage() {
       {/* ── HERO ─────────────────────────────────────────────── */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=1600&q=85"
+          src="/images/hero.jpg"
           alt="Glasses of golden cider in a sunlit orchard"
           fill
           priority
@@ -188,7 +188,7 @@ export default function HomePage() {
         <section className="section-pad relative overflow-hidden bg-forest-950">
           <div className="absolute inset-0 opacity-10">
             <Image
-              src="https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1600&q=60"
+              src="/images/hero.jpg"
               alt=""
               fill
               className="object-cover object-center"
@@ -218,7 +218,7 @@ export default function HomePage() {
               </div>
               <div className="relative h-80 overflow-hidden rounded-3xl lg:h-[480px]">
                 <Image
-                  src="https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=800&q=80"
+                  src="/images/hero.jpg"
                   alt="Cider fermenting in oak vats in the old stone barn"
                   fill
                   className="object-cover object-center"
@@ -352,7 +352,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-forest-800 py-24">
         <div className="absolute inset-0 opacity-10">
           <Image
-            src="https://images.unsplash.com/photo-1569937756344-f9a024f80046?w=1600&q=60"
+            src="/images/hero.jpg"
             alt=""
             fill
             className="object-cover"

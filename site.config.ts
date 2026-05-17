@@ -1,40 +1,34 @@
-/**
- * site.config.ts — edit this file when deploying for a new client.
- *
- * MODE GUIDE
- * ----------
- * marketplace   Multi-producer platform. Full admin, producer onboarding,
- *               Stripe Connect commission splits. Sell to farmers market
- *               organisers, collectives, or aggregators.
- *
- * single-store  One brand, one producer's products. Direct Stripe checkout
- *               (no commission). Sell to individual farms, bakeries, etc.
- */
-
 import type { SiteConfig } from "@/lib/site-config.types";
 
 const config: SiteConfig = {
-  mode: "marketplace",
+  mode: "single-store",
 
   brand: {
-    name: "MarketStall",
-    tagline: "Your local market, delivered",
+    name: "Orchard & Hop",
+    tagline: "Small-batch cider and craft beer from Herefordshire orchards",
     description:
-      "Connecting East Midlands farmers and artisan producers directly with people who love great food. Every order supports a local family.",
-    email: "hello@marketstall.co.uk",
-    location: "East Midlands",
-    foundedYear: 2024,
-    socialInstagram: "https://instagram.com",
-    socialFacebook: "https://facebook.com",
+      "We press our own apples and pears from century-old orchards in Herefordshire, ferment slowly in oak vats, and brew small-batch craft ales in our converted barn. Nothing force-carbonated, nothing pasteurised — just honest, living drinks.",
+    email: "hello@orchardandhop.co.uk",
+    location: "Ledbury, Herefordshire",
+    foundedYear: 2011,
+    socialInstagram: "https://instagram.com/orchardandhop",
+    socialFacebook: "https://facebook.com/orchardandhop",
   },
 
   features: {
-    producerOnboarding: true,
-    adminPanel: true,
-    multiProducer: true,
-    stripeConnect: true,
+    producerOnboarding: false,
+    adminPanel: false,
+    multiProducer: false,
+    stripeConnect: false,
     reviews: true,
   },
+
+  stats: [
+    { value: "20+", label: "Apple Varieties" },
+    { value: "12", label: "Brews on Tap" },
+    { value: "4.8★", label: "Average Rating" },
+    { value: "Est. 2011", label: "Herefordshire" },
+  ],
 };
 
 export default config;

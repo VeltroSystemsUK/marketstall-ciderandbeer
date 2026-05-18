@@ -4,15 +4,15 @@ const config: SiteConfig = {
   mode: "single-store",
 
   brand: {
-    name: "Orchard & Hop",
-    tagline: "Small-batch cider and craft beer from Herefordshire orchards",
-    description:
-      "We press our own apples and pears from century-old orchards in Herefordshire, ferment slowly in oak vats, and brew small-batch craft ales in our converted barn. Nothing force-carbonated, nothing pasteurised — just honest, living drinks.",
-    email: "hello@orchardandhop.co.uk",
-    location: "Ledbury, Herefordshire",
-    foundedYear: 2011,
-    socialInstagram: "https://instagram.com/orchardandhop",
-    socialFacebook: "https://facebook.com/orchardandhop",
+    name: "Sloeberry Spirits",
+    tagline: "Small-batch fruit liqueurs, straight from the farm.",
+    description: "Sloeberry Spirits is a family-run distillery nestled on a farm on the Rutland-Leicestershire border, handcrafting premium fruit and dessert liqueurs the traditional way. Every bottle begins with hand-foraged and carefully selected fruits, slowly infused into fine spirits to coax out the deepest, most natural flavours. From their award-winning Sloe Gin to indulgent Salted Caramel Vodka, each liqueur is a taste of the Melton Mowbray countryside in a bottle.",
+    email: "hello@sloeberryspirits.co.uk",
+    location: "Melton Mowbray, Leicestershire",
+    foundedYear: 2015,
+    logoUrl: "https://static.wixstatic.com/media/4751f9_d961d15242454dc58958f740ce730d7e~mv2.png/v1/fill/w_660,h_202,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto",
+    socialInstagram: "https://instagram.com/sloeberryspirits",
+    socialFacebook: "https://facebook.com/sloeberryspirits",
   },
 
   features: {
@@ -24,10 +24,10 @@ const config: SiteConfig = {
   },
 
   stats: [
-    { value: "20+", label: "Apple Varieties" },
-    { value: "12", label: "Brews on Tap" },
-    { value: "4.8★", label: "Average Rating" },
-    { value: "Est. 2011", label: "Herefordshire" },
+    { value: "Award-Winning", label: "Sloe Gin" },
+    { value: "10+", label: "Unique Flavours" },
+    { value: "100%", label: "Family Made" },
+    { value: "Est. 2015", label: "Melton Mowbray" },
   ],
 };
 

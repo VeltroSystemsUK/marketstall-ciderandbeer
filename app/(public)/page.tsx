@@ -66,7 +66,11 @@ export default function HomePage() {
   return (
     <>
       {/* ── HERO ─────────────────────────────────────────────── */}
-      <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
+      <section
+        className="relative flex min-h-screen items-center justify-center overflow-hidden"
+        data-demo-img="hero"
+        data-demo-img-label="Hero background"
+      >
         <Image
           src="/images/hero.jpg"
           alt="Glasses of golden cider in a sunlit orchard"
@@ -130,10 +134,14 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-10 flex items-end justify-between">
             <div>
-              <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-harvest-600">
+              <p
+                data-demo-edit="products-eyebrow"
+                className="mb-2 text-sm font-semibold uppercase tracking-widest text-harvest-600">
                 From our orchards & brewery
               </p>
-              <h2 className="font-display text-4xl font-bold text-gray-900">
+              <h2
+              data-demo-edit="products-heading"
+              className="font-display text-4xl font-bold text-gray-900">
                 This season&apos;s releases
               </h2>
             </div>
@@ -147,7 +155,7 @@ export default function HomePage() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {FEATURED_PRODUCTS.map((product, i) => (
               <div key={product.id} data-reveal data-reveal-delay={i * 80}>
-                <ProductCard product={product} />
+                <ProductCard product={product} demoKey={`product-${i}`} />
               </div>
             ))}
           </div>
@@ -197,7 +205,9 @@ export default function HomePage() {
                 <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-harvest-500">
                   Our story
                 </p>
-                <h2 className="font-display mb-6 text-4xl font-bold text-white sm:text-5xl">
+                <h2
+                  data-demo-edit="story-heading"
+                  className="font-display mb-6 text-4xl font-bold text-white sm:text-5xl">
                   Forty acres of forgotten apple trees.
                 </h2>
                 <p className="mb-4 text-base leading-relaxed text-forest-300">
@@ -213,7 +223,9 @@ export default function HomePage() {
                   Meet the cidermaker <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
-              <div className="relative h-80 overflow-hidden rounded-3xl lg:h-[480px]">
+              <div data-demo-img="story"
+                data-demo-img-label="Story photo"
+                className="relative h-80 overflow-hidden rounded-3xl lg:h-[480px]">
                 <Image
                   src="/images/hero.jpg"
                   alt="Cider fermenting in oak vats in the old stone barn"
@@ -267,10 +279,14 @@ export default function HomePage() {
                 <Truck className="h-6 w-6 text-forest-700" />
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">
+                <h4
+                  data-demo-edit="trust-1-title"
+                  className="font-semibold text-gray-900">
                   Next-day UK delivery
                 </h4>
-                <p className="text-sm text-gray-500">
+                <p
+                  data-demo-edit="trust-1-body"
+                  className="text-sm text-gray-500">
                   Order before noon for next-day delivery, carefully packed to
                   protect every bottle. Free delivery on orders over £40.
                 </p>
@@ -281,10 +297,14 @@ export default function HomePage() {
                 <RefreshCw className="h-6 w-6 text-forest-700" />
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">
+                <h4
+                  data-demo-edit="trust-2-title"
+                  className="font-semibold text-gray-900">
                   Living drinks, naturally
                 </h4>
-                <p className="text-sm text-gray-500">
+                <p
+                  data-demo-edit="trust-2-body"
+                  className="text-sm text-gray-500">
                   Everything we make is unpasteurised and unfiltered. These are
                   alive, evolving drinks — store cool and enjoy fresh.
                 </p>
@@ -295,10 +315,14 @@ export default function HomePage() {
                 <ShieldCheck className="h-6 w-6 text-forest-700" />
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900">
+                <h4
+                  data-demo-edit="trust-3-title"
+                  className="font-semibold text-gray-900">
                   Satisfaction guaranteed
                 </h4>
-                <p className="text-sm text-gray-500">
+                <p
+                  data-demo-edit="trust-3-body"
+                  className="text-sm text-gray-500">
                   If anything arrives damaged or not to your liking, we replace
                   it. No questions, no fuss — just good service.
                 </p>
@@ -363,7 +387,9 @@ export default function HomePage() {
             className="font-display mb-4 text-4xl font-bold text-white sm:text-5xl">
             Taste what the orchard actually tastes like.
           </h2>
-          <p className="mb-8 text-lg text-forest-300">
+          <p
+            data-demo-edit="cta-body"
+            className="mb-8 text-lg text-forest-300">
             Slow-fermented, unpasteurised, and alive with flavour. Join over
             2,800 customers who&apos;ve discovered honest cider.
           </p>
